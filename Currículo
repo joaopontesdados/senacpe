@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculo João Guilherme</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="apresentação">
+        <h1>João Guilherme de Luna Pontes</h1>
+        <img src="1658529174635.jpg" alt="João Guilherme" width="200px">
+    </div>
+    <div id="Identificação">
+        <br>
+        <h2>Identificação</h2>
+        <ul>
+            <li><strong>E-mail: </strong>smilowjg@gmail.com</li>
+            <li><strong>Telefone: </strong>(81) 9 9749-4286</li>
+            <li><strong>Endereço: </strong>Av. Norte 1795</li>
+            <li><strong>Linkedin:  <a href="https://www.linkedin.com/in/joaopontesdados/">Meu linkedin.</a></strong></li>
+            <li><strong>Github: <a href="https://www.github.com/smilowjg">Portifólio GitHub.</a></strong></li>
+        </ul>
+    </div>
+    <div id="Formação">
+        <h1><strong>Formação</strong></h1>
+        <l1>Tecnólogo em análise e desenvolvimento de sistemas - SENAC - 2022/2024</l1>
+        <l1></l1>
+
+    </div>
+    <div id="Experiência Profissional">
+        <h3>Experiência Profissional</h2>
+        <ul>
+            <l1><strong>Curso Data Science Academy: </strong>Introdução a Ciência de dados 3.0.</l1>
+        </ul>
+    </div>
+
+</body>
+</html>
