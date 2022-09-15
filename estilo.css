@@ -1,0 +1,137 @@
+img {
+    width: 12%;
+    display: block;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 100%;
+    
+  }
+
+  #conteudo-inicial{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+  }
+
+
+  hr{
+    width: 415px;
+    margin-left: 0%;
+    border-top: red dotted 2px;
+  }
+
+  .corpo{
+    background: url(/images/Untitled.png) no-repeat;
+    margin-left: 15px;
+  }
+
+  a{
+	text-decoration: none;
+    font-size: 15PX;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 2px;
+  }
+
+  a:hover{
+  box-shadow: 0px 0px 20px 3px #0c74f2;
+	background-color:transparent;
+	border-radius:21px;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000e1;
+	font-family:Arial;
+	font-size:17.5px;
+	padding:5px 19px;
+	text-decoration:none;
+	text-shadow:0px 1px 47px #00d9ff;
+    transition: 1s;
+  }
+
+  a:active{
+    position:relative;
+    top:1px;
+  }
+
+  th{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px;
+    padding-top: 20px ;
+   
+  }
+
+  td{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 20px;
+   
+  }
+
+  iframe{
+    position : absolute;
+    top      : 0;
+    right    : 36%;
+    height   : 100%;
+    width    : 40%;
+    
+  }
+
+  th{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+  }
+
+  li{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+  }
+
+
+  address{
+    font-size: 20px;
+    width: 400px;
+    margin-left: 10PX;
+    border-top: black solid 2px;
+    margin-top: 370px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+  }
+
+  .meunome{
+    font-size: 15px;
+  }
+
+  .meunome:hover{
+    font-size: 15px;
+  }
+
+
+.ID{
+    background: url(images/343-3431376_svg-id-png-id-card-icon-png.png) no-repeat;
+    background-size: 30px;
+    background-position: 1px;
+    padding-left: 40px;
+}
+
+.FORMA{
+    background: url(images/122-1222795_graduation-png-education-icon-png-grey-transparent-png-removebg-preview.png) no-repeat;
+    background-size: 30px;
+    background-position: 1px;
+    padding-left: 40px;
+    
+}
+
+.EXP{
+    background: url(images/265-2654721_school-supplies-comments-free-school-supply-transparent-icons-removebg-preview.png) no-repeat;
+    background-size: 30px;
+    background-position: 1px;
+    padding-left: 40px;
+    
+}
+
+.id-link{
+    font-size: 20px;
+   
+}
+
+.id-link:hover{
+    font-size: 20px;
+    color: #0c74f2;
+}
