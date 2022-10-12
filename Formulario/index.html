@@ -1,0 +1,171 @@
+<!doctype html>
+<html>
+
+    <head>
+        <!-- Metadados -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+        <!-- CSS -->
+        <link rel="stylesheet" type="text/css" href="estilo.css" media="screen">
+
+        <!-- Título da página (aparece na aba) -->
+        <title>Cadastro</title>
+    </head>
+
+    <body>  
+
+        <!-- Cabeçalho com título e subtítulo (ambos com css de id "titulo") -->
+        <div>
+            <h1 id="titulo">Formulário de Cadastro</h1>
+            <p id="subtitulo">Preencha suas informações</p>
+            <br>
+        </div>
+
+        <!-- Início do formulário -->
+        <form>
+
+            <fieldset class="grupo">
+                <!-- Campo do nome com legenda "nome" e css de classe "campo" -->
+                <div class="campo">
+                    <label for="nome"><strong>Nome</strong></label>
+                    <input type="text" name="nome" id="nome" required>
+                </div>
+
+                <!-- Campo do sobrenome com legenda "sobrenome" e css de classe "campo" -->
+                <div class="campo">
+                    <label for="sobrenome"><strong>Sobrenome</strong></label>
+                    <input type="text" name="sobrenome" id="sobrenome" required>
+                </div>
+            </fieldset> 
+            <br>
+            <!-- Campo de email com-->
+            <div class="campo">
+                <label for="email"><strong>Email</strong></label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <br>
+            <div class="campo">
+                <label for="tel"><strong>Telefoine</strong></label>
+                <input type="tel" name="tel" id="tel" required>
+            </div>
+            <br>
+            <!-- Campo de desenvolvimento web com 3 opções de botões selecionáveis (radio button) e css de classe "campo" -->
+            <div class="campo">
+                <label><strong>Qual lado de aplicação você desenvolve?</strong></label>
+                <label>
+                    <input type="radio" name="devweb" value="frontend" checked>Front-end
+                </label>
+                <label>
+                    <input type="radio" name="devweb" value="backend">Back-end
+                </label>
+                <label>
+                    <input type="radio" name="devweb" value="fullstack">Fullstack
+                </label>
+            </div>
+            <br>
+            <div class="campo">
+                <label for="ingles"><strong>Nível de inglês</strong></label>
+                <select id="ingles" required>
+                  <option selected disabled value="">Selecione</option>
+                  <option>Iniciante</option>
+                  <option>Intemediário</option>
+                  <option>Avançado</option>
+                  <option>Fluente</option>
+                </select>
+            </div>
+            <!-- Campo de senioridade com 3 opções para escolha (select option) e css de classe "campo" -->
+            <br>
+            <div class="campo">
+                <label for="senioridade"><strong>Nível de experiência</strong></label>
+                <select id="senioridade" required>
+                  <option selected disabled value="">Selecione</option>
+                  <option>Júnior</option>
+                  <option>Pleno</option>
+                  <option>Sênior</option>
+                </select>
+            </div>
+            <br>
+            <div class="campo">
+                <label for="bancodedados"><strong>Banco de dados</strong></label>
+                <select id="bancodedados" required>
+                  <option selected disabled value="">Selecione</option>
+                  <option>MySQL</option>
+                  <option>PostgreSQL</option>
+                  <option>Oracle</option>
+                  <option>MongoDB</option>
+                  <option>DynamoDB</option>
+                </select>
+            </div>
+            <br>
+            <fieldset class="grupo">
+                
+                <!-- Campo de tecnologias para escolha de 1 ou mais opções para marcar (checkbox) e css de classe "campo" -->
+                <div id="check">
+                    <label><strong>Selecione as tecnologias que utiliza:</strong></label><br><br>
+                    <input type="checkbox" id="tecnologia1" name="tecnologia1" value="HTML">
+                    <label for="tecnologia1"> HTML</label>
+                    <input type="checkbox" id="tecnologia2" name="tecnologia2" value="CSS">
+                    <label for="tecnologia2"> CSS</label>
+                    <input type="checkbox" id="tecnologia3" name="tecnologia3" value="JavaScript">
+                    <label for="tecnologia3"> JavaScript</label>
+                    <input type="checkbox" id="tecnologia4" name="tecnologia4" value="PHP">
+                    <label for="tecnologia4"> PHP</label>
+                    <input type="checkbox" id="tecnologia5" name="tecnologia5" value="C#">
+                    <label for="tecnologia5"> C#</label>
+                    <input type="checkbox" id="tecnologia6" name="tecnologia6" value="Python">
+                    <label for="tecnologia6"> Python</label>
+                    <input type="checkbox" id="tecnologia7" name="tecnologia7" value="Java">
+                    <label for="tecnologia7"> Java</label>
+                </div>
+            </fieldset>
+            <br>
+            <fieldset class="grupo">
+             
+                <!-- Campo de tecnologias para escolha de 1 ou mais opções para marcar (checkbox) e css de classe "campo" -->
+                <div id="check">
+                    <label><strong>Horários de reunião:</strong></label><br><br>
+                    <input type="checkbox" id="reunião1" name="reuniao1" value="Manhã">
+                    <label for="reunião1"> Manhã</label>
+                    <input type="checkbox" id="reunião2" name="reunião2" value="Tarde">
+                    <label for="reunião2"> Tarde</label>
+                    <input type="checkbox" id="reunião3" name="reunião3" value="Noite">
+                    <label for="reunião3"> Noite</label>
+                </div>
+               <p1>Horário para as reuniões</p1>
+                <input type="time">
+                <p2>Previsão de entrega</p2>
+                <input type="date">
+
+            </fieldset>
+            <!-- Caixa de texto -->
+            
+            <div class="campo">
+                <br>
+                <label for="experiencia"><strong>Conte um pouco mais da sua experiência: </strong></label>
+                <textarea rows="6" style="width: 26em" id="experiencia" name="experiencia"></textarea>
+            </div>
+            <br>
+            <div class="area-upload">
+			<label for="upload-file" class="label-upload">
+				<i class="fas fa-cloud-upload-alt"></i>
+				<div class="texto">Clique ou arraste o arquivo</div>
+			</label>
+			<input type="file" accept="image/jpg,image/png" id="upload-file" multiple/>
+			
+			<div class="lista-uploads">
+			</div>
+		</div>
+        <br>
+        <br>    
+        <!-- Botão para enviar o formulário -->
+            <button class="botao" type="submit" onsubmit="">Concluído</button>    
+            
+            <button class="botao" type="reset" onreset="">Resetar</button>       
+        
+            
+        </form>
+
+    </body>
+
+</html>
